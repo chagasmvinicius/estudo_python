@@ -1,5 +1,4 @@
-from pickle import FALSE
-import comecando_com_a_linguagem.adivinhacao_num as adivinhacao_num, comecando_com_a_linguagem.forca as forca
+import adivinhacao_num, forca
 
 def escolha_jogos():
     print('\n########################################')
