@@ -7,4 +7,13 @@ Documentação Python 3: https://docs.python.org/3/tutorial/
 📝 APRENDIZADOS DIFERENTES:
 
 List Comprehensions: https://pythonacademy.com.br/blog/list-comprehensions-no-python
-Ex.: letras_acertadas = ['_' for index in palavra_secreta]
+
+Exemplos:
+1. [expr for item in lista]
+Em outras palavras: aplique a expressão expr em cada item da lista.
+
+2. [expr for item in lista if cond]
+Aplique a expressão expr em cada item da lista caso a condição cond seja satisfeita.
+
+3. [resultado_if if expr else resultado_else for item in lista]
+Em outras palavras: para cada item da lista, aplique o resultado resultado_if se a expressão expr for verdadeira, caso contrário, aplique resultado_else.
